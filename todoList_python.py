@@ -1,13 +1,6 @@
 from tkinter import *
 
 
-# class Task:
-#     def __init__(self, serial, tname, tdesc):
-#         self.serial = serial
-#         self.tname = tname
-#         self.tdesc = tdesc
-
-
 # INCREMENT COUNT BY 1 AND INSERT ENTRIES TO LIST
 def add_items():
     global COUNT
@@ -22,7 +15,6 @@ def add_items():
 def delete_items():
     global COUNT
     COUNT -= 1
-    # item = listbox.corselection()
     listbox.delete(ANCHOR)
 
 
